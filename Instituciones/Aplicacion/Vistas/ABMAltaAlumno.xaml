@@ -1,0 +1,24 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplicacion.Vistas"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="Aplicacion.Vistas.ABMAltaAlumno"
+        mc:Ignorable="d"
+        Title="ABMAltaAlumno" Height="543" Width="461">
+    <Grid>
+        <TextBlock
+            x:Name="tblAltaAlumno"
+            TextAlignment="Center"
+            Background="#673ab7"
+            Foreground="White"
+            Style="{StaticResource MaterialDesignDisplay3TextBlock}" Margin="0,0,0,443"><Run Text="Alta Alumno"/></TextBlock>
+        <TextBox x:Name="txtNombre" materialDesign:HintAssist.Hint="Nombre" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="141,74,150,388" TextChanged="TxtNombre_Copy_TextChanged"/>
+        <TextBox x:Name="txtApellido" materialDesign:HintAssist.Hint="Apellido" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="141,145,150,315" TextChanged="TxtNombre_Copy_TextChanged"/>
+        <TextBox x:Name="txtDNI" materialDesign:HintAssist.Hint="DNI" Style="{StaticResource MaterialDesignFloatingHintTextBox}" Margin="141,225,150,241" PreviewTextInput="TxtDNI_Copy_PreviewTextInput" TextChanged="TxtNombre_Copy_TextChanged"/>
+        <DatePicker Name="dtpFechaNac" materialDesign:HintAssist.Hint="Fecha de Nacimiento" Style="{StaticResource MaterialDesignFloatingHintDatePicker}" Margin="141,309,150,128" Height="75" SelectedDateChanged="DatePicker_SelectedDateChanged"/>
+        <Button x:Name="btnGuardar" Style="{StaticResource MaterialDesignFlatMidBgButton}" ToolTip="MaterialDesignFlatMidButton" Margin="241,426,92,44" Content="GUARDAR" Height="Auto" Click="BtnGuardar_Click"/>
+        <Button x:Name="btnCancelar" Style="{StaticResource MaterialDesignFlatButton}" ToolTip="MaterialDesignFlatButton" Margin="81,426,252,44" Content="CANCELAR" Height="Auto" Click="BtnCancelar_Click"/>
+    </Grid>
+</Window>

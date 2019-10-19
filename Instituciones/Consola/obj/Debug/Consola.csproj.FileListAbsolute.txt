@@ -1,0 +1,8 @@
+E:\Instituciones\Consola\bin\Debug\Consola.exe.config
+E:\Instituciones\Consola\bin\Debug\Consola.exe
+E:\Instituciones\Consola\bin\Debug\Consola.pdb
+E:\Instituciones\Consola\bin\Debug\Objetos.dll
+E:\Instituciones\Consola\bin\Debug\Objetos.pdb
+E:\Instituciones\Consola\obj\Debug\Consola.csprojResolveAssemblyReference.cache
+E:\Instituciones\Consola\obj\Debug\Consola.exe
+E:\Instituciones\Consola\obj\Debug\Consola.pdb

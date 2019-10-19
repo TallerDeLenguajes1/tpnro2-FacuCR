@@ -1,0 +1,22 @@
+﻿<Window x:Class="Aplicacion.Vistas.ABMCursos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aplicacion.Vistas"
+        mc:Ignorable="d"
+        Title="ABMCursos" Height="518" Width="769">
+    <Grid>
+        <TextBlock
+            x:Name="tblCursos"
+            TextAlignment="Center"
+            Background="#673ab7"
+            Foreground="White"
+            Style="{StaticResource MaterialDesignDisplay3TextBlock}" Margin="0,0,0,407"><Run Text="Cursos"/></TextBlock>
+        <Button x:Name="btnCrear" Style="{StaticResource MaterialDesignFlatMidBgButton}" ToolTip="MaterialDesignFlatMidButton" Margin="29,191,595,258" Content="CREAR" Click="BtnCrear_Click" Height="Auto"/>
+        <Button x:Name="btnSeleccionar" Style="{StaticResource MaterialDesignFlatMidBgButton}" ToolTip="MaterialDesignFlatMidButton" Margin="29,248,595,203" Content="SELECCIONAR" Click="BtnSeleccionar_Click" Height="Auto"/>
+        <Button x:Name="btnVolver" Style="{StaticResource MaterialDesignFlatButton}" ToolTip="MaterialDesignFlatButton" Margin="29,305,595,144" Content="VOLVER" Click="BtnVolver_Click" Height="Auto"/>
+        <ListBox x:Name="lbxCursos" HorizontalAlignment="Left" Height="297" Margin="194,95,0,0" VerticalAlignment="Top" Width="557" SelectionChanged="LbxCursos_SelectionChanged"/>
+
+    </Grid>
+</Window>

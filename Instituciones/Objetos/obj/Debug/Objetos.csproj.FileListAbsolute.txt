@@ -1,0 +1,11 @@
+E:\Instituciones\Objetos\bin\Debug\Objetos.dll
+E:\Instituciones\Objetos\bin\Debug\Objetos.pdb
+E:\Instituciones\Objetos\obj\Debug\Objetos.csprojResolveAssemblyReference.cache
+E:\Instituciones\Objetos\obj\Debug\Objetos.dll
+E:\Instituciones\Objetos\obj\Debug\Objetos.pdb
+D:\Instituciones\Objetos\bin\Debug\Objetos.dll
+D:\Instituciones\Objetos\bin\Debug\Objetos.pdb
+D:\Instituciones\Objetos\obj\Debug\Objetos.csprojAssemblyReference.cache
+D:\Instituciones\Objetos\obj\Debug\Objetos.csproj.CoreCompileInputs.cache
+D:\Instituciones\Objetos\obj\Debug\Objetos.dll
+D:\Instituciones\Objetos\obj\Debug\Objetos.pdb
